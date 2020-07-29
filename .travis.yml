@@ -4,8 +4,8 @@ env:
   global:
   - LANG=fr_FR.UTF-8
   - LC_ALL=fr_FR.UTF-8
-install: pip install -r vérifications/besoins.txt
-script: python vérifications/vérifie.py
+install: pip install -r "vérifications/besoins.txt"
+script: python "vérifications/vérifie.py"
 branches:
   only:
     - gh-pages
